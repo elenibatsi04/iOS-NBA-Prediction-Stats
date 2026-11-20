@@ -37,3 +37,5 @@ the contents of `ios/NBAStatPredictor/` (check "Copy items if needed" and your a
 To update projections without a new App Store build, host `predictions.json` anywhere with a public URL and paste it
 into the app's Settings (gear icon). Re-run `python -m src.export` daily (after `python -m src.data`/`src.features`)
 and upload the file.
+
+Note: For daily updates add https://raw.githubusercontent.com/elenibatsi04/iOS-NBA-Prediction-Stats/main/ios/NBAStatPredictor/Resources/predictions.json to the settings
