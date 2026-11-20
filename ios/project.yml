@@ -1,0 +1,20 @@
+name: NBAStatPredictor
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  NBAStatPredictor:
+    type: application
+    platform: iOS
+    sources:
+      - NBAStatPredictor
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.NBAStatPredictor
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Stat Predictor"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1"
