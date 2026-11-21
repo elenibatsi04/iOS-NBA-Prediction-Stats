@@ -6,6 +6,8 @@ heavy models stay in Python and the phone only renders results.
     python -m src.export                       # uses the full-data bundle if present
     python -m src.export --as-of 2026-11-21    # date of the games you care about
 """
+from __future__ import annotations
+
 import argparse
 import json
 from datetime import date, datetime, timezone
